@@ -22,19 +22,19 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from './hero/robot.jpeg';
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import atom from "./collaboration/atom.png";
+import chemistry from "./collaboration/chemistry.png";
+import forging from "./collaboration/forging.png";
+import graphene from "./collaboration/graphene.png";
+import material from "./collaboration/material.png";
+import mechanical from "./collaboration/mechanical.png";
+import pipe from "./collaboration/pipe.png";
+import semiconductor from "./collaboration/semiconductor.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -69,6 +69,7 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
+// import linkedin from "./socials/linkedin.svg";
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
@@ -103,14 +104,14 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
+  atom,
+  chemistry,
+  forging,
+  graphene,
+  material,
+  mechanical,
+  pipe,
+  semiconductor,
   service1,
   service2,
   service3,

@@ -4,9 +4,11 @@ import Collaboration from "./components/Collaboration";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Pricing from "./components/Pricing";
+// import Pricing from "./components/Pricing";
+// import PricingList from "./components/PricingList";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import Team from "./components/Team";
 
 const App = () => {
   return (
@@ -14,10 +16,11 @@ const App = () => {
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
-        <Benefits />
-        <Collaboration />
         <Services />
-        <Pricing />
+        <Collaboration />
+        <Benefits />
+        
+        <Team />
         <Roadmap />
         <Footer />
       </div>

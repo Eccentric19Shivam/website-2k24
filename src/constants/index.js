@@ -1,3 +1,4 @@
+
 import {
   benefitIcon1,
   benefitIcon2,
@@ -6,22 +7,22 @@ import {
   benefitImage2,
   chromecast,
   disc02,
-  discord,
+  semiconductor,
   discordBlack,
   facebook,
-  figma,
+  material,
   file02,
-  framer,
+  mechanical,
   homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
+  pipe,
+  forging,
   plusSquare,
-  protopie,
-  raindrop,
+  chemistry,
+  atom,
   recording01,
   recording03,
   roadmap1,
@@ -29,58 +30,45 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
+  graphene,
   sliders04,
-  telegram,
-  twitter,
-  yourlogo,
+  
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Our Projects",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Our Facility and Team",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "About Us",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "What we do",
     url: "#roadmap",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Center of Material Science And Engineering was established in 2008",
+  "The main focus of the teaching and research in the department is centered on interdisciplinary area to achieve worldwide attention and appreciation. Important mission of the department is to generate human resource of excellent quality, including Chemists, Physicist, and Engineers with high professional competence in interdisciplinary research area encompassing of biology, chemistry physics, nanomaterials and material science at international competence level for the need of nation.",
+  
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,166 +82,144 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
+    title: "Video Editing",
+    text: "Our team have talented members that edit videos for content on.",
+    // date: "May 2023",
+    // status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "3-D Modelling With Blender And Web Developing",
+    text: "We have members that are capable in 3D modelling and web developing.",
+    // date: "May 2023",
+    // status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    title: "Project Planing and Content Creation",
+    text: "Our team has done various projects that wroks on ideas or concepts related to Material Science and Engineering.",
+    // date: "May 2023",
+    // status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    title: "Connecting with Esteemed Personalities And Workshops ",
+    text: "We have connnecting with various personalities that have contributed to Material Science and have made a name for themselves. We also conduct various Workshops related to Material Science.",
+    // date: "May 2023",
+    // status: "progress",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "And Many more...";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Polymers",
+    // text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Smart Materials",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Destructive And Non-Destructive Testings",
+  },
+  {
+    id: "3",
+    title: "Material Processing & Manifacturing",
+  },
+  {
+    id: "4",
+    title: "Metallurgy",
+    title: collabText
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
+    title: "atom",
+    icon: atom,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "chemistry",
+    icon: chemistry,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "forging",
+    icon: forging,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "graphene",
+    icon: graphene,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "material",
+    icon: material,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "mechanical",
+    icon: mechanical,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "pipe",
+    icon: pipe,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "semiconductor",
+    icon: semiconductor,
     width: 38,
     height: 32,
   },
 ];
 
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-];
+// team.js
+
+
+
 
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Exploring Materials with help of AR/VR",
+    text: "Aims to revolutionize understanding and exploration of materials properties through the integration of Augmented reality (AR) and Virtual Reality(VR).",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "TiO2 based Photocatalytic Film for Water Treatment",
+    text: "Investigate the efficacy of photocatalysis in treating wastewat.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +227,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Dr. Jhonsen's Nitinol Engine",
+    text: "Utilizes the unique properties of Nitinol alooy to generate mechanical motiom form heat.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Development and Optimization of a Jet Engine",
+    text: "Focuses in the desing, development and optimization of jet engine as a propulsion system for various application.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,51 +244,32 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Smart Composite Material for Structural Health Monitoring",
+    text: "Reviewing different non-destructive damage testing techniques, then investigating vibration-based damage methods along with their respective pros-cons.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
 
 export const socials = [
+  
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/metamorph_nith/",
   },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
+  // {
+  //   id: "1",
+  //   title: "Linkedin",
+  //   iconUrl: linkedin,
+  //   url: "#",
+  // },
+  // {
+  //   id: "2",
+  //   title: "Youtube",
+  //   iconUrl: youtube,
+  //   url: "#",
+  // },
 ];
