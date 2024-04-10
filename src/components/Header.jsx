@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src="../assets/metamorph.png" url='' alt="Team Metamorph" />
+          <img className="w-20" src="src/assets/metamorph.png" url='' alt="Team Metamorph" />
         </a>
 
         <nav
