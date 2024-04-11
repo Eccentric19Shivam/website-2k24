@@ -36,7 +36,7 @@ import mechanical from "./collaboration/mechanical.png";
 import pipe from "./collaboration/pipe.png";
 import semiconductor from "./collaboration/semiconductor.png";
 
-import service1 from "./services/service-1.png";
+import service1 from "./services/service-1.jpeg";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
 

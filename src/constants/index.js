@@ -263,13 +263,13 @@ export const socials = [
   // {
   //   id: "1",
   //   title: "Linkedin",
-  //   iconUrl: linkedin,
+  //   iconUrl: '../assets/socials/linkedin.svg',
   //   url: "#",
   // },
   // {
   //   id: "2",
   //   title: "Youtube",
-  //   iconUrl: youtube,
+  //   iconUrl: '../assets/socials/youtube.svg',
   //   url: "#",
   // },
 ];

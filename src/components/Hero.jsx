@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of&nbsp;Material Science And Engineering&nbsp; with {` `}
+          Departmental team of Material Science And Engineering&nbsp; &nbsp; {` `}
             <span className="inline-block relative">
               Team Metamorph{" "}
               <img
@@ -36,8 +36,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Get to know more about our team and explore our projects. Imagine all the 
-            things that are donen and will be posible with Material Science!.
+            "Where Eccentrivity Personifies Elegance."
           </p>
           {/* <Button href="/pricing" white>
             Get started

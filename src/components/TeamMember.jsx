@@ -8,30 +8,54 @@ const TeamMember = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 150,
     slidesToShow: 1,
     slidesToScroll: 1,
   }
 
   return (
-    <div className="w-1/3 m-auto">
-      <Slider {...settings}>
-        {team.map((item) => (
-          <div className='bg-white h-[450px] text-black rounded-xl'>
-            <div className='h-56 rounded-t-xl bg-indigo-500 flex justify-center items-center'>
-              <img src={item.imageUrl} alt='' className='h-44 w-44 rounded-full'/>
-            </div>
+    // <div className="w-1/3 m-auto">
+    //   <div className='mt-20'>
+    //   <Slider {...settings}>
+    //     {team.map((item) => (
+    //       <div className='bg-white h-[450px] text-black rounded-xl'>
+    //         <div className='h-56 rounded-t-xl bg-indigo-500 flex justify-center items-center'>
+    //           <img src={item.imageUrl} alt='' className='h-44 w-44 rounded-full'/>
+    //         </div>
 
-            <div className='flex flex-col justify-center items-center gap-4 p-4'>
-              <h3 className='text-xl font-semibold'>{item.name}</h3>
-              <h4 className='text-lg'>{item.title.primary}</h4>
-              <p>{item.title.secondary}</p>
-              <a href={item.link} className="bg-indigo-600 text-white text-lg px-6 py-2 rounded-xl">Contact</a>
-            </div>
+    //         <div className='flex flex-col justify-center items-center gap-4 p-4'>
+    //           <h3 className='text-xl font-semibold'>{item.name}</h3>
+    //           <h4 className='text-lg'>{item.title.primary}</h4>
+    //           <p>{item.title.secondary}</p>
+    //           <a href={item.link} className="bg-indigo-600 text-white text-lg px-6 py-2 rounded-xl">Contact</a>
+    //         </div>
+    //       </div>
+    //     ))}
+    //   </Slider>
+    //   </div>
+    // </div>
+    <div className="w-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto">
+  <div className="mt-12 md:mt-20">
+    <Slider {...settings}>
+      {team.map((item) => (
+        <div key={item.id} className="rounded-xl overflow-hidden shadow-lg">
+          <div className="h-80 bg-gradient-to-b from-purple-900 to-black flex justify-center items-center relative">
+            <img src={item.imageUrl} alt={item.name} className="h-48 w-48 rounded-full object-cover absolute z-10" />
+            <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
           </div>
-        ))}
-      </Slider>
-    </div>
+
+          <div className="bg-gradient-to-b from-black to-purple-900 p-6 text-center">
+            <h3 className="text-3xl font-semibold text-white">{item.name}</h3>
+            <h4 className="text-lg text-purple-400">{item.title.primary}</h4>
+            <p className="text-gray-300">{item.title.secondary}</p>
+            <a href={item.link} className="inline-block mt-4 bg-purple-700 text-white text-lg px-8 py-3 rounded-xl hover:bg-purple-800 transition duration-300 ease-in-out">Contact</a>
+          </div>
+        </div>
+      ))}
+    </Slider>
+  </div>
+</div>
+
   )
 }
 
